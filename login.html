@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login 👓</title>
+    <link rel="stylesheet" href="styles_login.css">
+</head>
+<body>
+    <header class="header__landingPage">
+        <section>
+          <img
+            src="resources/satellite_logo_color.jpg"
+            alt="satellite_logo_color"
+            class="header__img"
+          />
+          <h1 class="header__h1">MyLandingPage</h1>
+        </section>
+  
+        <section>
+          <nav class="header__nav"> &#8801
+            <div>
+                <a href="">Home</a> 
+                <a href="">Products</a>           
+                <a href="">Login</a>
+                <a href="">Contact</a>
+             
+            </div>
+          </nav>
+        </section>
+      </header>
+    
+      <main>
+        <h2 class="formH2">Please log in...</h2>
+        <form action="/" method="post">
+        <div class="formDiv">
+            <div>
+                <img src="resources/user.jpg" alt="user_logo">
+                <label for="UserName">User Name:</label>
+                <input type="text" name="UserName" id="UserName" placeholder="Insert user name...">
+            </div>
+            <div>
+                <img src="resources/pass.jpg" alt="user_logo">
+                <label for="Pass">Password:</label>
+                <input type="password" name="Pass" id="Pass" placeholder="Insert password...">
+            </div>
+        </div>
+        <div class="formChkBtn">
+            <div>
+            <label for="remUser" class="rememberLabel">Remember me</label>
+            <input type="checkbox" name="remUser" id="remUser" class="rememberInput">
+            </div>
+            
+            <div id="submitBtnDiv">
+            <input type="submit" value="Log in" name="submitBtn" id="submitBtn" class="submitBtn">
+            </div>
+        </div>
+        </form>
+    </main>
+
+    <footer>
+        <h4>All rights reserved - MyLandingPage</h4>
+      </footer>
+    
+</body>
+</html>

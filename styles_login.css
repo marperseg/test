@@ -1,0 +1,278 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 57rem) /*912 px*/ {
+  .header__landingPage {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding-top: 1.25rem;
+    padding-bottom: 0.5rem;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+  }
+  .header__landingPage > section {
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  .header__img {
+    width: 20%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .header__nav {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 2rem;
+    padding-left: 1.25rem;
+    width: 90%;
+  }
+
+  .header__nav > div {
+    display: none;
+  }
+  .header__nav:hover > div {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .header__nav > div > a {
+    color: #101740;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header__nav > div > a:hover {
+    background-color: #595959;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .formH2 {
+    background-color: #61678c;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    display: flex;
+  }
+
+  form {
+    background-color: #61678c;
+    padding-left: 2rem;
+  }
+
+  .formDiv {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .formDiv > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 0.5rem;
+  }
+
+  .formDiv > div > img {
+    width: 3rem;
+  }
+
+  .formDiv > div > input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    padding-left: 1.25rem;
+  }
+  .formDiv > div > label {
+    font-family: monospace;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 80%;
+  }
+  .formChkBtn > div {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+  }
+
+  .formChkBtn > div > label {
+    font-family: monospace;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+  }
+
+  #submitBtn {
+    background-color: #101740;
+    color: #f2f2f2;
+    width: 30%;
+  }
+
+  footer {
+    padding: 0.5rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 57rem) /*912 px*/ {
+  .header__landingPage {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .header__landingPage > section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #f2f2f2;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__img {
+    width: 20%;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+  }
+
+  .header__nav {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 2rem;
+    padding-right: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .header__nav > div {
+    display: none;
+  }
+  .header__nav:hover > div {
+    font-size: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .header__nav > div > a {
+    color: #101740;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .header__nav > div > a:hover {
+    background-color: #595959;
+    text-transform: uppercase;
+    color: #f2f2f2;
+  }
+
+  .formH2 {
+    background-color: #61678c;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    display: flex;
+  }
+
+  form {
+    background-color: #61678c;
+    padding-left: 2rem;
+  }
+
+  .formDiv {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .formDiv > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    width: 50%;
+    padding: 0.5rem;
+  }
+  .formDiv > div > img {
+    width: 3rem;
+  }
+  .formDiv > div > input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    padding-left: 1.25rem;
+  }
+  .formDiv > div > label {
+    font-family: monospace;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 60%;
+  }
+  .formChkBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+  }
+  .formChkBtn > div {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+  }
+
+  .formChkBtn > div > label {
+    font-family: monospace;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+  }
+
+  #submitBtn {
+    background-color: #101740;
+    color: #f2f2f2;
+    width: 30%;
+  }
+
+  footer {
+    padding: 0.5rem;
+    text-align: center;
+  }
+}
